@@ -9,7 +9,7 @@
 ## 2. Find Top-K most similar documents
 ### Hadoop + MapReduce + TF-IDF
 #### Exact mathching + Ranked Retrieval Models + Bag of Word model + TF-IDF
-1. Read multiple files from HDFS, use 'Bag of Word' model to compute the frequence of every word in every different file.
+1. Read multiple files from HDFS, use 'Bag of Word' model to compute the frequence of every word in every different file excluding 'StopWords'.
 2. Compute -TF-IDF of every word w.r.t a document
 3. Normalize TF-IDF of every word w.r.t a document
 4. Compute the relevance of every document w.r.t query words --> Ranked Retrieval Models(mentioned above)
