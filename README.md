@@ -1,6 +1,6 @@
 # Hadoop 
 ############################################
-## 1. CommonWords
+## 1. Top 10 CommonWords in multiple files
 ### Hadoop + MapReduce 
 1. Read mutiple files parallelly from HDFS, count the number of 'CommondWords' appering in these files at the same time excluding 'StopWords'. 
 2. Sort these 'CommonWords' in descending order. 
